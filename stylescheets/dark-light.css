@@ -1,0 +1,18 @@
+/* dark/light mode button stylen */
+button 
+{
+    display: block;
+    margin: 15px 10px 15px 10px;
+    background-color: darkgray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: gray;
+}

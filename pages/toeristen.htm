@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../stylescheets/dark-light.css">
+        <link rel="stylesheet" href="../stylescheets/toeristen.css">
+        <link rel="stylesheet" href="../stylescheets/menu.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiel-Toeristen</title>
+    </head>
+    <body>
+        <header>
+            <!--navigatiebalk boven aan de pagina-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.htm">Tiel</a>
+                    </li>
+                    <li>
+                        <a href="lunch.htm">Lunch</a>
+                    </li>
+                    <li>
+                        <a href="toeristen.htm">Toeristen</a>
+                    </li>
+                    <li>
+                        <a href="sportmogelijkheden.htm">Sportmogelijkheden</a>
+                    </li>
+                    <li>
+                        <a href="ictbedrijfen.htm">ICT-Bedrijfen</a>
+                    </li>
+                </ul>
+            </nav>  
+        </header> 
+        <main>
+            <!--Dark/Light mode knopje-->
+            <button id="colorButton">Dark/Light-mode</button>
+            <!--informatie over plekken-->
+            <section class="infoormatie">
+                <article>
+                    <h1>
+                        Local Attractions
+                    </h1>
+                    <p>
+                        Our town has many interesting places to visit that show its history and beauty. Whether you like culture or fun activities, there is something for everyone.
+                    </p>
+                </article>
+                <!--Fotos en informatie over de plekken-->
+            </section>
+            <section class="foto">
+                <img onclick="infoormatieflipje()" src="../images/flipje2.jpg" alt="">
+                <img onclick="infoormatieagnitenhof()" src="../images/agnitenhof1.jpg" alt="">
+                <img onclick="infoormatiezinder()" src="../images/zinder1.jpg" alt="">
+            </section>            
+        </main>
+        <footer>
+            <script src="../script/toeristen.js" defer></script>
+            <script src="../script/dark-light.js" defer></script>
+        </footer>
+    </body>           

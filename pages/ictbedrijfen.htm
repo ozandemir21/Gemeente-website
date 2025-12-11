@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../stylescheets/ict.css">
+        <link rel="stylesheet" href="../stylescheets/dark-light.css">
+        <link rel="stylesheet" href="../stylescheets/menu.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiel-ICTbedrijven</title>
+    </head>
+    <body>
+        <header>
+            <!--navigatiebalk boven aan de pagina-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.htm">Tiel</a>
+                    </li>
+                    <li>
+                        <a href="lunch.htm">Lunch</a>
+                    </li>
+                    <li>
+                        <a href="toeristen.htm">Toeristen</a>
+                    </li>
+                    <li>
+                        <a href="sportmogelijkheden.htm">Sportmogelijkheden</a>
+                    </li>
+                    <li>
+                        <a href="ictbedrijfen.htm">ICT-Bedrijfen</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Dark/Light mode knopje-->
+            <button id="colorButton">Dark/Light-mode</button>
+            <!--informatie van de bedrijfen en fotos-->
+            <section>
+                <h1>
+                    Dit zijn de 3 ictbedrijfen dichtbij Tiel.
+                </h1>
+                <img onclick="informatiegroup()" src="../images/ictgroep2.jpg">
+                <img onclick="informatieastecom()" src="../images/ict.png">
+                <img onclick="informatiehigh()" src="../images/icthigh.svgz">
+            </section>
+            <!--Link naar de website van de bedrijfen-->
+            <section>
+                <article>
+                    <hr>
+                    <a href="https://www.ict.eu/nl" target="_blank">ICT-Group</a>
+                    <a href="https://astecom.nl/over-astecom/" target="_blank">Atecom business software</a>
+                    <a href="https://www.hightechinnovators.nl/" target="_blank"">High Tech Innovators</a>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <script src="../script/ict.js"></script>
+            <script src="../script/dark-light.js"></script>
+        </footer> 
+    </body>           

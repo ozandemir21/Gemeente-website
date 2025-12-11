@@ -1,0 +1,65 @@
+/* custom font aanpassen */
+@font-face 
+{
+    font-family: custom;
+    src: url(../fonts/Saira-VariableFont_wdth\,wght.ttf);
+}
+/* padding op 0 zetten */
+body, ul, li
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* body, h1, a, h3 en p elementen stylen */
+body
+{
+    font-family: custom;
+    background-color: black;
+    text-align: center;
+}
+
+h1,h3
+{
+    font-weight: 300;
+    color: white;
+}
+
+p
+{
+    color: white;
+}
+
+a
+{
+    color: white;
+}
+/* fotos stylen */
+.image1
+{
+    width: 400px;
+    border: solid;
+    border-radius: 8px;
+    border-color: rgb(115, 23, 23);
+    border-width: 3px;
+}
+
+/* informatie tekst stylen */
+section
+{
+    margin: 0 100px;
+    gap: 0 50px;
+    display: flex;
+    color: white;
+}
+
+article
+{
+    margin-bottom: 100px;
+    padding: 0 400px 0 400px;
+    text-align: center;
+}
+
+
+
+
